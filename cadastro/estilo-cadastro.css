@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Quicksand:wght@600&display=swap');
+
+:root {
+    --cor01: #203949;
+    --cor02: #f7cb3d;
+ 
+    --font-titulo-de-cima: 'Tilt Warp', sans-serif;
+    --font-de-login: 'Quicksand';
+ }
+
+ body {
+    background-image: url(imagem/fundo-do-site.jpg);
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+div.bemvindo {
+    background-color: #203949;
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    line-height: 10px;
+    margin-top: 100px; 
+    border-radius: 50px;
+}
+
+ h1.logo{
+    font-family: var(--font-de-login);
+ }
+
+main {
+    background-color: #203949;
+    width: 740px;
+    margin: auto;
+    height: 600px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.438);
+}
+
+form {
+    padding-top: 20px;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+input.checkbox {
+    display: flex;
+    align-items: center;
+    margin-right: 700px;
+}
+
+div.checkbox {
+    display: flex;
+    margin-top: 20px;
+}
+
+div.checkbox label {
+    font-size: 10px;
+    padding-right: 70px;
+}
+
+button {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 40px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #f7cb3d;
+    color: var(--cor01);
+    cursor: pointer;
+}
+
