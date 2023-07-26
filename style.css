@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Quicksand:wght@600&display=swap');
+
+:root {
+   --cor01: #203949;
+   --cor02: #f7cb3d;
+
+   --font-titulo-de-cima: 'Tilt Warp', sans-serif;
+   --font-de-login: 'Quicksand';
+}
+
+body {
+   background-color: var(--cor01);
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 0px 200px;
+}
+
+header {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 50px;
+
+}
+
+div#titulo {
+   flex-direction: column;
+   line-height: 8px;
+   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.329);
+   font-family: var(--font-de-login);
+}
+
+h1.cor02 {
+   color: var(--cor02);
+   font-size: 34px;
+}
+
+a.menu{
+   color: white;
+   text-decoration: none;
+   padding: 0px 17px;
+   font-size: 17px;
+}
+
+a.menu:hover {
+   background-color: #f7cb3d;
+   color: #203949;
+   padding: 17px;
+   border-radius: 20px;
+}
+
+hr {
+   margin-top: 23px;
+}
+
+main {
+   padding-top: 100px;
+   display: flex;
+   justify-content: space-between;
+
+}
+ div.titulo2 {
+   flex-direction: column;
+   line-height: 13px;
+   font-size: 40px;
+   font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: normal;
+   text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.432);
+
+ }
+
+ h1.login {
+   color: var(--cor02);
+
+ }
+
+ p {
+   width: 600px;
+   font-size: 10px;
+ }
+
+ form {
+   padding-top: 40px;
+   display: flex;
+   flex-direction: column;
+ }
+
+ input {
+   padding: 20px;
+   width: 300px;
+   border-radius: 30px;
+   margin: 5px;
+ }
+
+ button {
+   width: 100px;
+   margin-top: 10px;
+   padding: 10px;
+   margin-left: 120px;
+   border-radius: 20px;
+   font-size: 15px;
+   font-weight: bold;
+ }
+
+button:hover {
+   background-color: #f7cb3d;
+   color: #203949;
+}
+
+ img {
+   height: 600px;
+ }
+
+p.cadastro {
+   font-size: 15px;
+}
+
+ #cadastro {
+   padding: 4px;
+   color: #f7cb3d;
+ }
+
+ aside {
+   padding-top: 10px;
+ }
+
+ 
